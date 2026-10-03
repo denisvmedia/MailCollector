@@ -1,6 +1,6 @@
 # Reliable mail sync migration
 
-Applied idempotently by `MailDatabase.migrate()` because the project does not use an external migration runner.
+Historical upgrade logic, now run once by `LegacyDatabaseMigration` before Ptah takes over SQL migrations. See [Database migrations](README.md) for the adoption transaction and version history.
 
 ## Accounts
 

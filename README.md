@@ -165,6 +165,8 @@ Capacitor
 
 ## 开发
 
+服务端开发和测试还需安装 [Ptah 0.12.0](https://github.com/stokaro/ptah/releases/tag/v0.12.0)，将 `ptah` 放入 `PATH`，或通过 `PTAH_BIN` 指定可执行文件路径。Docker 镜像已包含该工具；Windows 和 Android 客户端不需要安装。数据库升级与搜索索引说明见 [Database migrations](migrations/README.md)。
+
 安装依赖：
 
 ```bash
